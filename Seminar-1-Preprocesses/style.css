@@ -1,0 +1,35 @@
+@im * {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+
+.conteiner {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.heading__color {
+  color: #d41b87;
+}
+
+.nav {
+  display: flex;
+  gap: 16px;
+}
+.nav__link {
+  text-decoration: none;
+}
+
+.content {
+  display: flex;
+  gap: 16px;
+}
+.content__item {
+  flex: 1 1 auto;
+  max-width: 300px;
+  height: 200px;
+  border: 1px solid #000;
+}/*# sourceMappingURL=style.css.map */

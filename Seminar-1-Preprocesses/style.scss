@@ -1,0 +1,41 @@
+@import 'vars';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.conteiner {
+  margin: 0 auto;
+  max-width: $siteWidth;
+}
+
+.heading__color {
+  color: $colorBlueViolet;
+}
+
+.nav {
+  display: flex;
+  gap: $gutter * 2;
+
+  &__link {
+    text-decoration: none;
+  }
+}
+
+.content {
+  display: flex;
+  gap: $gutter * 2;
+
+  &__item {
+    flex: 1 1 auto;
+    max-width: $siteWidth / 4;
+    height: 200px;
+    border: $border;
+  }
+}
